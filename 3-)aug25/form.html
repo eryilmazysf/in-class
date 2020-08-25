@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="result.html" name="myfirstform" method="">
+        <div>
+            <label> Username: <input type="text" name="Kullanıcı adı" placeholder="username"/> </label>
+            <br />
+            <br />
+            <label for="surname">Surname: </label>
+            <input type="text" name="soyadı" id="surname" placeholder="lastname" />
+            <br /><br />
+        </div>
+        <div>
+            <label>Password:
+                <input type="password" name="password" id="password" /><br /><br />
+            </label>
+        </div>
+        <div>
+            <label>Gender:</label><br />
+            <label for="cinsiyet">Male:
+                <input type="radio" name="gender" value="male" id="cinsiyet-1" checked /></label>
+            <label for="cinsiyet">Female:
+                <input type="radio" name="gender" value="female" id="cinsiyet-2" /></label>
+        </div>
+        <div>
+            <br />
+            <label>Vehicle:</label><br />
+            <input type="checkbox" name="arac1" id="arac1" value="bisiklet" />
+            <label for="arac1">Bisiklet</label>
+            <input type="checkbox" name="arac2" id="arac2" value="araba" />
+            <label for="arac2">Araba</label>
+            <input type="checkbox" name="arac3" id="arac3" value="kamyon" />
+            <label for="arac3">Kamyon</label>
+        </div>
+        <div>
+            <br />
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" value="18" step="2" min="18" max="65" />
+        </div>
+        <br>
+        <div>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" name="search" id="gsearch">
+        </div>
+        <div>
+            <br>
+            <label for="favcolor">Select Color</label>
+            <input type="color" name="favcolor" id="favcolor">
+        </div>
+        <div>
+            <br>
+            <label for="date">Birthday:</label>
+            <input type="date" name="date" id="date" min="1980-01-02" max="2030-04-05">
+        </div>
+        <div>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" maxlength="30">
+        </div>
+        <div>
+            <br>
+            <label for="fmyile">File:</label>
+            <input type="file" name="file" id="myfile">
+        </div>
+        <div>
+            <br>
+            <label for="tel">Tel:</label>
+            <input type="tel" name="tel" id="tel" maxlength="10" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </div>
+
+        <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="gönder" />
+    </form>
+</body>
+
+</html>

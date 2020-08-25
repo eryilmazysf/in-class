@@ -1,0 +1,16 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: lower-roman;
+}
+
+#p1 {
+    border: 5px solid red;
+    padding: 10px;
+    /* border olan uzakligi padding belirler */
+    margin: 15px;
+    /* margin alan genisletmede kullanilir */
+    font-size: 30px;
+}
