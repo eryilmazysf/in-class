@@ -1,0 +1,33 @@
+#kutu1 {
+    color: blue;
+    border-style: dashed;
+    border-color: salmon;
+    border-width: 5px;
+}
+
+#kutu2 {
+    color: rgb(0, 0, 255);
+    border: 3px solid turquoise;
+}
+
+#kutu3 {
+    color: #0000ff;
+    border: 3px ridge gray;
+}
+
+#kutu4 {
+    color: hsl(240, 100%, 50%);
+    border-top: 5px solid green;
+    border-bottom: dashed 5px #ff9010;
+}
+
+#kutu5 {
+    color: rgba(0, 0, 255, 1);
+    border: groove 3px cyan;
+}
+
+#kutu6 {
+    color: hsla(120, 100%, 50%, 1);
+    border: 5px inset #90ff00;
+    border-radius: 20px;
+}
