@@ -1,0 +1,18 @@
+/*    * asterix tum elementler icin uygulanir */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    border: 5px solid #ffff00;
+    background-color: skyblue;
+    padding: inherit;
+}
+
+div {
+    border: 5px dotted rgb(0, 255, 255);
+    padding: 20px;
+    background-color: tomato;
+}

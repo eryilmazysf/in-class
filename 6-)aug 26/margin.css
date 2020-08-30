@@ -1,0 +1,48 @@
+#p1 {
+    border: 5px solid red;
+    margin: 50px 50px 70px 6opx;
+    /* top right bottom left  for 4 value*/
+    /* top right/left bottom for 3 value */
+    width: 40%;
+    margin: auto;
+    /* auoto ile otomatik ortalama yapar */
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.demo-box {
+    background-color: white;
+    width: 80%;
+    margin: 100px auto;
+    /* 100 top 50 right/left auto dan dolayi */
+    border-top: 15px solid black;
+}
+
+.one {
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    /* burda collapsing var one demo-box icinde oyuzden margin vermek icin yukardan toplam 200 px asagi ceker */
+}
+
+.two {
+    background-color: #00ff00;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    /* burda collapsing olur cunku one bottom 50px var two top da 50px var ikisi ust uste biner  */
+}
+
+.three {
+    background-color: #0000ff;
+    height: 200px;
+    width: 200px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    /* box-sizing:  ile padding ve margin box size gore degisir ama kutu boyu box size gore sabit kalir */
+}

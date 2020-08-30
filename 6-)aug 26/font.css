@@ -1,0 +1,28 @@
+#fonts1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+    /*  vw size ile ekran boyutuna gore yazi boyutu degisir % lik size olarak dusunebiliriz */
+    font-variant: small-caps;
+}
+
+#fonts2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fonts3 {
+    font-family: 'Pacifico', cursive;
+}
+
+#fonts4 {
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    font-weight: 900;
+}
+
+#fonts5 {
+    font-variant: small-caps;
+    /* variyant ilk harfi buyultur */
+}
+
+
+/* google fonts dan secim yapabiliriz ordan font uzerine tikla sonra selected families sec ver ordan link ile font family kopyala yapistir */
