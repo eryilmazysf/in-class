@@ -1,0 +1,66 @@
+.box {
+    width: 120px;
+    height: 120px;
+}
+
+#mbox {
+    width: 40px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    /* absolute olunca parent i second a gore konumlanir */
+    top: 50px;
+    left: 50px;
+}
+
+#first {
+    background-color: #ff0000;
+}
+
+#second {
+    background-color: #00ff00;
+    position: relative;
+    /* position:relative konum olarak o anki pozisyona gore kendisini konumlandirir(en ustten degil) */
+    top: 50px;
+    left: 30px;
+}
+
+#third {
+    background-color: #0000ff;
+    position: absolute;
+    /* bir ustteki tag gore kendisini konumlandirir eger parent yoksa body parent secer */
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+    /* cakisma durumlarina gore one yada arkaya gecer */
+}
+
+#div4 {
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+}
+
+#div5 {
+    background-color: tomato;
+    width: 100%;
+    height: 500px;
+}
+
+#div6 {
+    background-color: pink;
+    width: 100%;
+    height: 25px;
+    position: sticky;
+    top: 30px;
+    left: 100px;
+}
+
+#div7 {
+    background-color: aqua;
+    width: 100%;
+    height: 1000px;
+}

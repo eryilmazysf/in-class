@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #slider {
+            overflow: hidden;
+        }
+        
+        figure {
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 10s slider infinite;
+        }
+        
+        figure img {
+            width: 1000px;
+            height: 300px;
+            float: left;
+        }
+        
+        @keyframes slider {
+            0% {
+                left: 0;
+            }
+            20% {
+                left: 0;
+            }
+            25% {
+                left: -100%;
+            }
+            45% {
+                left: -100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="slider">
+        <figure>
+            <img src="https://picsum.photos/id/1076/600/400" alt="">
+            <img src="https://picsum.photos/id/1020/600/400" alt="">
+            <img src="https://picsum.photos/id/237/600/400" alt="">
+            <img src="https://picsum.photos/id/684/600/400?blur=5" alt="">
+            <img src="https://picsum.photos/id/211/600/400" alt="">
+        </figure>
+    </div>
+</body>
+
+</html>

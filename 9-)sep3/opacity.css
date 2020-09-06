@@ -1,0 +1,17 @@
+h1 {
+    background-color: rebeccapurple;
+    opacity: .3;
+}
+
+p {
+    background-color: rgba(0, green, 0, 0.5);
+}
+
+img {
+    width: 150px;
+    opacity: .5;
+}
+
+img:hover {
+    opacity: 1;
+}

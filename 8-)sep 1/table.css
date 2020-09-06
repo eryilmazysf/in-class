@@ -1,0 +1,36 @@
+table,
+th,
+td {
+    border: 1px solid #000000;
+}
+
+table {
+    border-collapse: collapse;
+    /* collapse ile border cizgileri birlestirilir tam bir tablo olusur */
+    width: 50%;
+}
+
+th {
+    height: 30px;
+    background-color: azure;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+td {
+    text-align: center;
+    background-color: orange;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: left;
+}
+
+td:hover {
+    background-color: cornflowerblue;
+}
+
+tr:nth-child(even) {
+    background-color: aquamarine;
+}

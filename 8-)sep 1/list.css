@@ -1,0 +1,15 @@
+ ul {
+     list-style-image: url('./image/sqpurple.gif');
+     list-style-position: inside;
+     background-color: gray;
+     /* list-style:squre inside   => shorthand kullanimi */
+ }
+ 
+ li {
+     border: 1px solid black;
+ }
+ /* li::before {
+    content: '\2705';
+    color: tan;
+ "unicode table"  emojileri bulabiliriz 
+} */

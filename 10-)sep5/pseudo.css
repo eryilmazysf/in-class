@@ -1,0 +1,35 @@
+a {
+    transition: all ease-in-out 200ms;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+
+/* hover linkden sonra gelmek zorunda */
+
+a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+
+/* link > visited > hover  */
+
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+
+/* div:hover p  */
+
+div:hover+p {
+    display: block
+}
